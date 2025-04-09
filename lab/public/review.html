@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review - midas's Store</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <h1>Midas's Electronics Store</h1>
+        <nav>
+            <a href="/home">Home</a>
+            <a href="/search">Search</a>
+            <a href="/stock">Stock Check</a>
+            <a href="/review">Review</a>
+            <button onclick="logout()">Logout</button>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Review a Product</h2>
+        <div class="review-form">
+            <input type="text" id="reviewId" placeholder="Product ID">
+            
+            <div class="rating-container">
+                <p>Rating:</p>
+                <div class="stars">
+                    <i class="bi bi-star" data-value="1"></i>
+                    <i class="bi bi-star" data-value="2"></i>
+                    <i class="bi bi-star" data-value="3"></i>
+                    <i class="bi bi-star" data-value="4"></i>
+                    <i class="bi bi-star" data-value="5"></i>
+                </div>
+                <p>Your rating: <span id="selected-rating">0</span> stars</p>
+            </div>
+                        
+            <button id="submitReviewBtn">Submit Review</button>
+        </div>
+        <div id="reviewResult"></div>
+    </main>
+
+    <script src="/js/review.js"></script>
+</body>
+</html>
