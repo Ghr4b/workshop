@@ -303,6 +303,7 @@ there are several techniques that can be used to prevent sql injection, includin
 
 
 Other Guides
+
 https://sqlwiki.netspi.com/
 https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection
 https://github.com/HackTricks-wiki/hacktricks/tree/master/src/pentesting-web/sql-injection
